@@ -166,6 +166,8 @@ The model has a residual standard error of 1.144 and a r squared of 0.5422. This
 predict.lm(model.3,mydata,interval= "prediction" )
 ```
 
+The interval goes from negative 1.716 and goes to a positive 2.9157.
+
 
 ## Comparing nested models ANOVA Test
 
