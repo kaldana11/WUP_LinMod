@@ -148,6 +148,8 @@ mygrip
 cor(SIMS~ARM+GRIP,data=data)
 ````
   
+The correlation is larger  
+  
 ### Inferential  (Build 2-dimentional model.3)
 
 #### predict model.3 at target point
