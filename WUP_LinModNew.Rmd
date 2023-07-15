@@ -117,7 +117,7 @@ model.2 <- lm(SIMS~GRIP,data=data)
 summary.lm(model.2)
 ```
 
-  
+The residual standard error is 1.295 and the r squared is 0.4094 SIMS~ARRM has a better residual error and a better r squared number than sims~grip.  
 
 #### predict model.2 at target point
 
