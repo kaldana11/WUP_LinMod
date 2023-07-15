@@ -180,6 +180,7 @@ anova(model.1,model.3)
 anova(model.1)
 ```
 
+Gives a p-value of0.00000499, which does not have any value. It is comparing the residual standard error of model 1.
 
 ### Model.2 vs Model.3
 
