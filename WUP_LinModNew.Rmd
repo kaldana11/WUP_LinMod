@@ -46,14 +46,11 @@ basicNN
 ```
 
 
-
-
-
-
-
-
-
 ### Numerical results
+
+```{r}
+cor(SIMS~ARM,data=data)
+```
 
 
 ### Inferential  (Build model.1)
