@@ -71,6 +71,7 @@ mydata<- data.frame(GRIP=88,ARM=104)
 predict.lm(model.1,mydata,interval= "prediction" )
 ```
 
+The value that it predicted was 1.57 in change but it can go to -0.863 to an upper positive 4.02 in change.
 
 #### scatterplot with model fit
   
