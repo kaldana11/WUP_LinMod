@@ -188,8 +188,15 @@ Gives a p-value of 0.00000499, which does not have any value. It is comparing th
 anova(model.2, model.3)
 ```
 
-The P-value is alot smaller than model 1,model 3 . There is a big difference between the data models.Model 3 is better than Model 1 and Model 3 is better than model 2. That is all based on looking at the P-values between the models.
+The P-value is a lot smaller than model 1,model 3 . There is a big difference between the data models.Model 3 is better than Model 1 and Model 3 is better than model 2. That is all based on looking at the P-values between the models.
 
 
 ## Informally compare Model.1 with model.2
+
+```{r}
+anova(model.1,model.2)
+```
+
+
+
 
