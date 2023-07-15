@@ -152,6 +152,12 @@ The correlation is larger
   
 ### Inferential  (Build 2-dimentional model.3)
 
+```{r}
+model.3 <- lm(SIMS~ARM+GRIP,data=data)
+summary.lm(model.3)
+```
+
+
 #### predict model.3 at target point
   
 
