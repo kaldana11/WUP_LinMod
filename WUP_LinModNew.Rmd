@@ -160,9 +160,12 @@ summary.lm(model.3)
 The model has a residual standard error of 1.144 and a r squared of 0.5422. This model has a better residual error than SIMS~GRIP AND SIMS~ARM. Model is SIMS+0.37311 * ARM + 0.24470 * GRIP -5.33871.
 
 
-
 #### predict model.3 at target point
   
+```{r}
+predict.lm(model.3,mydata,interval= "prediction" )
+```
+
 
 ## Comparing nested models ANOVA Test
 
