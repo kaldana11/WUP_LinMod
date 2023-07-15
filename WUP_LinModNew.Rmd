@@ -103,6 +103,10 @@ mygrip
 
 ### Numerical results 
 
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+
 
 ### Inferential  (Build model.2)
   
